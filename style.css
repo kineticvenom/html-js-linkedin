@@ -1,0 +1,117 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    border-radius: 7px;
+}
+.w100 {
+    width:100%;
+}
+#div-nav {
+    background-color: #9baffb ;
+    height :40px;
+    border-radius: 7px;
+}
+#div-main {
+    background-color: #9ac9e7;
+    display: flex;
+    flex-flow:row;
+    height: 600px;
+    border-radius: 7px;
+}
+#div-main-left {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 100%;
+    flex-grow:1;
+    border-radius: 7px;
+}
+#div-main-right {
+    background-color: #d2edda;
+    flex-grow: 1;
+    border-radius: 7px;
+}
+.main-boxes {
+    padding: 6px;
+    margin: 8px;
+    background-color: rgb(240, 248, 255);
+    border-radius: 7px;
+    overflow: hidden;
+    text-align: left;
+}
+#profile-summary {
+    position: relative;
+}
+#splash-image {
+    margin:-10px;
+    height: 150px;
+    width: 750px;
+    overflow: hidden;
+}
+#img-splash {
+    width: 100%;
+}
+#profile-image {
+    
+    position: absolute;
+    top: 90px;
+    left:5px;
+}
+
+#pimg-splash {
+   
+    top: 100px;
+    height:100px;
+    width: 100px;
+    border-radius:100%;
+    border-width:3px;
+    border-color: #2dce5d;
+    border-style: solid;
+}
+#profile-bio {
+    margin: 60px 0px 0px 0px;
+    text-align: left;
+    height:100%;
+}
+#name {
+    position:relative;
+    top:5px;
+    margin:5px 0px 5px 0px;
+    padding:1px 0px 2px 0px;
+    
+    
+}
+#bio-summary {
+    position:relative;
+    margin:5px 0px 0px 0px;
+}
+
+
+#profile-connect-box {
+    /* padding:2px 0px 0px 0px; */
+    bottom:10px;
+    height:22px;
+    width :100px;
+    position: relative;
+    background-color: #395be7;
+    border-radius: 40px;
+}
+#connect {
+    position: relative;
+    top: 2px;
+    text-align: center;
+    font-size: x-small;
+
+    color: white;
+}
+#profile-about {
+    margin:10px;
+    text-align: left;
+}
